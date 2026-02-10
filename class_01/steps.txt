@@ -1,0 +1,45 @@
+1_for install uv
+py -m pip install uv
+
+2_for initialize project from uv
+py -m uv init
+
+
+3_for install open ai agents
+py -m pip install openai-agents
+
+4_for run project
+py -m uv run main.py
+
+5_for python 3.11 and set path
+winget install --id Python.Python.3.11 -e --source winget
+
+6_Delete python 3.13 
+from setting --> app uninstall
+also delte existings files
+
+7_again follow steps from 1 to 4
+
+8_
+.venv\Scripts\activate
+
+9_
+py -m ensurepip --upgrade
+py -m pip install --upgrade pip
+
+10_
+py -m pip install uv
+py -m pip install openai-agents
+
+11_
+get api key from gemini model
+
+12_setup with .env 
+
+13_baseurl
+"https://api.generativeai.googleapis.com/v1beta/openai/"
+
+14_set model in agent
+ model=OpenAIChatCompletionsModel(model="gemini-2.0-flash", openai_client=client),
+
+15_model issue and ssl issue
