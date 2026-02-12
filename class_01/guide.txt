@@ -1,0 +1,13 @@
+0_python delete and install from google Python 3.11.9
+1_uv install window from google (run command cms as administrator)
+2_uv init
+3_uv add openai-agents python-decouple
+4_create .env and .gitignore file and put .env in gitignore file
+5_get api key from goolge stdio
+6_go google stdio doc search open ai compatibility
+7_get base url and name of key varible 
+8_from decouple import config
+9_key=config('GEMINI_API_KEY')
+10_base_url=config('BASE_URL')
+11_from agents import AsyncOpenAI
+12_code from repo
